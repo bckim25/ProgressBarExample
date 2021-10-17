@@ -37,7 +37,7 @@ namespace ProgressBarExample
         private async void btnStart_Click(object sender, EventArgs e)
         {
             List<string> list = new List<string>();
-            for(int i = 0; i < 1000; i++)
+            for(int i = 0; i < 100; i++)
                 list.Add(i.ToString());
             lblStatus.Text = "Working...";
             var progress = new Progress<ProgressReport>();
